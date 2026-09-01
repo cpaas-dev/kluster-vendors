@@ -4,53 +4,34 @@
 
 本仓库是 Kluster 各上游组件打包项目的索引。每个组件对应一个独立的 `kluster-vendor-*` 仓库。
 
-## 组件一览
+状态标记：✅ 已完成打包并可用 · 🚧 规划中，尚未开始
 
-### Kubernetes
+## Kubernetes
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| kubernetes | ✅ | [kluster-vendor-kubernetes](https://github.com/cpaas-dev/kluster-vendor-kubernetes) |
-| k3s | 🚧 TODO | — |
+- ✅ **kubernetes** — <https://github.com/cpaas-dev/kluster-vendor-kubernetes>
+- 🚧 **k3s**
 
-### High-level Container Runtime
+## High-level Container Runtime
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| containerd | ✅ | [kluster-vendor-containerd](https://github.com/cpaas-dev/kluster-vendor-containerd) |
-| cri-o | 🚧 TODO | — |
-| docker with cri-dockerd | 🚧 TODO | — |
+- ✅ **containerd** — <https://github.com/cpaas-dev/kluster-vendor-containerd>
+- 🚧 **cri-o**
+- 🚧 **docker with cri-dockerd**
 
-### Container Runtime
+## Container Runtime
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| crun | ✅ | [kluster-vendor-crun](https://github.com/cpaas-dev/kluster-vendor-crun) |
-| runc | 🚧 TODO | — |
+- ✅ **crun** — <https://github.com/cpaas-dev/kluster-vendor-crun>
+- 🚧 **runc**
 
-### OCI Registry
+## OCI Registry
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| zot | ✅ | [kluster-vendor-zot](https://github.com/cpaas-dev/kluster-vendor-zot) |
-| distribution registry | 🚧 TODO | — |
+- ✅ **zot** — <https://github.com/cpaas-dev/kluster-vendor-zot>
+- 🚧 **distribution registry**
 
-### Sealos
+## Sealos
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| sealos | ✅ | [kluster-vendor-sealos](https://github.com/cpaas-dev/kluster-vendor-sealos) |
+- ✅ **sealos** — <https://github.com/cpaas-dev/kluster-vendor-sealos>
 
-### Tools
+## Tools
 
-| 组件 | 状态 | 仓库 |
-| --- | --- | --- |
-| CRI Tools (crictl) | ✅ | [kluster-vendor-cri-tools](https://github.com/cpaas-dev/kluster-vendor-cri-tools) |
-| Helm | ✅ | [kluster-vendor-helm](https://github.com/cpaas-dev/kluster-vendor-helm) |
-
-## 状态说明
-
-| 标记 | 含义 |
-| --- | --- |
-| ✅ | 已完成打包并可用 |
-| 🚧 TODO | 规划中，尚未开始 |
+- ✅ **CRI Tools (crictl)** — <https://github.com/cpaas-dev/kluster-vendor-cri-tools>
+- ✅ **Helm** — <https://github.com/cpaas-dev/kluster-vendor-helm>
