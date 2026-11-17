@@ -19,8 +19,8 @@
 
 ## Container Runtime
 
+- ✅ **runc** — <https://github.com/cpaas-dev/kluster-vendor-runc>
 - ✅ **crun** — <https://github.com/cpaas-dev/kluster-vendor-crun>
-- 🚧 **runc**
 
 ## OCI Registry
 
@@ -35,3 +35,4 @@
 
 - ✅ **CRI Tools (crictl)** — <https://github.com/cpaas-dev/kluster-vendor-cri-tools>
 - ✅ **Helm** — <https://github.com/cpaas-dev/kluster-vendor-helm>
+- ✅ **Skopeo** — <https://github.com/cpaas-dev/kluster-vendor-skopeo>
