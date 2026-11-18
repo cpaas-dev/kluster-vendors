@@ -24,8 +24,8 @@
 
 ## OCI Registry
 
+- ✅ **distribution registry** — <https://github.com/cpaas-dev/kluster-vendor-registry>
 - ✅ **zot** — <https://github.com/cpaas-dev/kluster-vendor-zot>
-- 🚧 **distribution registry**
 
 ## Sealos
 
@@ -34,5 +34,6 @@
 ## Tools
 
 - ✅ **CRI Tools (crictl)** — <https://github.com/cpaas-dev/kluster-vendor-cri-tools>
+- ✅ **Oras** — <https://github.com/cpaas-dev/kluster-vendor-oras>
 - ✅ **Helm** — <https://github.com/cpaas-dev/kluster-vendor-helm>
 - ✅ **Skopeo** — <https://github.com/cpaas-dev/kluster-vendor-skopeo>
